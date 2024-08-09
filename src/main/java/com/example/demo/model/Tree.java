@@ -1,9 +1,9 @@
 
 package com.example.demo.model;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import jakarta.persistence.*;
+
+
 import java.util.List;
 
 @Entity
@@ -14,8 +14,6 @@ public class Tree {
     private Long id;
 
     @ElementCollection
-    @NotNull(message = "Input numbers cannot be null")
-    @Size(min = 1, message = "At least one number is required to create a tree")
     private List<Integer> inputNumbers;
 
     @Lob
