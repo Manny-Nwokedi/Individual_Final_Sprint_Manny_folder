@@ -1,7 +1,7 @@
 
 package com.nwokedi.demo;
 
-import static org.assertj.core.api.Assertions.assertThat;  // Correct import for assertThat
+import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -35,6 +35,6 @@ class DemoApplicationTest {
     void testRetrievePreviousTrees() {
         ResponseEntity<String> response = this.restTemplate.getForEntity("/previous-trees", String.class);
         assertThat(response.getStatusCode().is2xxSuccessful()).isTrue(); // Check if status is 2xx
-        assertThat(response.getBody()).contains("trees"); // Check if the response contains "trees"
+        assertThat(response.getBody()).contains("trees");
     }
 }
