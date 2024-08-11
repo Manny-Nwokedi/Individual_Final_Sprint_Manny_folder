@@ -1,9 +1,9 @@
 
-package com.example.demo.controller;
+package com.nwokedi.demo.controller;
 
-import com.example.demo.model.Tree;
-import com.example.demo.repository.TreeRepository;
-import com.example.demo.service.TreeService;
+import com.nwokedi.demo.model.Tree;
+import com.nwokedi.demo.repository.TreeRepository;
+import com.nwokedi.demo.service.TreeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

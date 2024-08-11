@@ -1,8 +1,8 @@
 
-package com.example.demo.service;
+package com.nwokedi.demo.service;
 
-import com.example.demo.model.Tree;
-import com.example.demo.repository.TreeRepository;
+import com.nwokedi.demo.model.Tree;
+import com.nwokedi.demo.repository.TreeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
