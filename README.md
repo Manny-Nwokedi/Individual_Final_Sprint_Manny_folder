@@ -1,0 +1,1 @@
+Develop a Spring Boot application that allows users to create a binary search tree from a series of numbers, visualize the resulting tree, and view previous tree results.![image](https://github.com/user-attachments/assets/f908706e-f116-4d47-a158-46d10d2ec55e)
